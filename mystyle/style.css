@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+header{
+    background-color: rgba(0, 128, 0, 0.70);
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover{
+    color: black;
+    background-color: darkseagreen;
+}
+.cit{
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    margin-right: 20px;
+}
+img{
+    width: 100px;
+    margin: auto;
+}
+.article1 {
+    column-gap: 50px;
+    display: flex;
+}
+.History {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px gold;
+}
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.courses{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px gold;
+}
+h3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.copyright{
+    bottom: 1%;
+    left: 40%;
+    text-align: center;
+    color: gold;
+    padding: 5px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+.BG{
+    background-image: url(../Logo/mmsu.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+}
+.the{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 5px;
+}
